@@ -9,6 +9,7 @@ import java.lang.annotation.Target;
  * Marks that a class or inteface is a Java Header to be implemented.
  * <p>
  * {@link RetentionPolicy#RUNTIME} to make things easier to debug, it's not actually necessary
+ * </p>
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
